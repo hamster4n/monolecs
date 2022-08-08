@@ -18,7 +18,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "carts")
-public class CartEntity {
+public class
+CartEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
